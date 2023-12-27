@@ -7,7 +7,8 @@ const Navbar = () => {
         <a href="#">
           <img src={burger} alt="burger" className="h-6 w-6 mx-3.5" />
         </a>
-        <a href="#">
+        <a href="#" className="flex">
+          <img src={burger} alt="company logo" className="h-6 w-6 mx-3.5" />
           <h1 className="text-black text-xl font-bold">BOOKNEST</h1>
         </a>
       </div>
