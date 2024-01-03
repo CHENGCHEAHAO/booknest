@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #7d6e83;
+  border-bottom: 1px solid #7d6e83;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100dvw;
+  height: 85px;
+}
+
+.navbar a {
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar .menu {
+  width: 48px;
+  height: 48px;
+  background-image: url("../assets/burger.png");
+  background-size: cover;
+  background-position: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.navbar .company {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .company-logo {
+  width: 48px;
+  height: 48px;
+  background-image: url("../assets/eBook.png");
+  background-size: cover;
+  background-position: center;
+  margin-right: 24px;
+}

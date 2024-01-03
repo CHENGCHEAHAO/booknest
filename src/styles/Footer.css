@@ -1,0 +1,101 @@
+.footer {
+  width: 100dvw;
+  height: 75dvh;
+  background-color: #7d6e83;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section-title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-section {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contact-section ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.menu-section ul li {
+  color: #fff;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.newsletter-section .message-box {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.newsletter-section .input-section {
+  width: 280px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-section .sign-up-section {
+  width: 80px;
+  background-color: #d0b8a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-section ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

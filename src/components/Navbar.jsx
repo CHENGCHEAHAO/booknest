@@ -1,19 +1,17 @@
-import burger from '../assets/burger.png'
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
     <section>
-      <div className="flex bg-arbit_purple h-14 items-center">
-        <a href="#">
-          <img src={burger} alt="burger" className="h-6 w-6 mx-3.5" />
-        </a>
-        <a href="#" className="flex">
-          <img src={burger} alt="company logo" className="h-6 w-6 mx-3.5" />
-          <h1 className="text-black text-xl font-bold">BOOKNEST</h1>
+      <div className="navbar">
+        <a href="#" className="menu"></a>
+        <a href="#" className="company">
+          <div className="company-logo"></div>
+          <div className="company-name">BOOKNEST</div>
         </a>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

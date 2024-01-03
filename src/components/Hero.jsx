@@ -1,37 +1,27 @@
-import eBook from '../assets/eBook.png'
-// import value from '../assets/value.png'
+import "../styles/Hero.css";
+
 const Hero = () => {
   return (
-    <section className="bg-arbit_bg_yellow lg:flex lg:px-60 lg:py-40">
-      <div className="h-80 flex flex-col items-center lg:pr-40">
-        {/* <img
-          src={eBook}
-          alt="eBook"
-          className="absolute scale-90 -translate-y-8 translate-x-28"
-        /> */}
-        <div className="text-5xl font-bold text-black mb-7 mt-12 lg:text-8xl">
-          BOOKNEST
-        </div>
-        <div className="text-5xl font-bold text-black mb-7 lg:text-8xl">
-          BOOKNEST
-        </div>
-        <div className="text-5xl font-bold text-black mb-7 lg:text-8xl">
-          BOOKNEST
+    <section className="hero-wrapper">
+      <div className="ebook-wrapper">
+        <div className="ebook-img"></div>
+        <div className="text-wrapper">
+          <div className="ebook-text">BOOKNEST</div>
+          <div className="ebook-text">BOOKNEST</div>
+          <div className="ebook-text">BOOKNEST</div>
         </div>
       </div>
 
-      <div className=";g:ml-20">
-        <div>
-          <div className="h-32 flex mx-10 mb-10 text-black lg:m-0">
-            <img src={eBook} alt="company logo" className="h-24 w-24" />
-            <div className="text-lg font-bold ml-6">
-              "Read. Return. Discuss. Unleash the Power of Shared Stories with
-              BookNest!"
-            </div>
+      <div className="desc-wrapper">
+        <div className="company-desc">
+          <div className="company-logo"></div>
+          <div className="company-slogan">
+            "Read. Return. Discuss. Unleash the Power of Shared Stories with
+            BookNest!"
           </div>
         </div>
 
-        <div className="text-lg font-bold mx-10 pb-24 lg:text-2xl lg:m-0">
+        <div className="description">
           Welcome to BookNest, where the world of books meets the convenience of
           online rental services! At BookNest, we are passionate about fostering
           a love for reading and making it accessible to everyone. Imagine
@@ -41,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
