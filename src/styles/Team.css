@@ -1,0 +1,80 @@
+.team {
+  width: 100vw;
+  height: 90dvh;
+  background-color: #f8ede3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .title {
+  color: #000;
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card {
+  width: 1180px;
+  height: 488px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.card ul li {
+  display: flex;
+  margin: 4vh 4vw;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  /* border: #000 1px solid; */
+}
+
+.card-img {
+  width: 50%;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+.card-name {
+  color: #000;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.card-position {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-desc {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 44px;
+  margin-bottom: 60px;
+}
+.card-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+.card-social img {
+  width: 70px;
+  height: 70px;
+  margin-right: 32px;
+}
