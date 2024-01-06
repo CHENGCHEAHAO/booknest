@@ -17,20 +17,22 @@ const list = [
 
 const Service = () => {
   return (
-    <section className="service-wrapper">
-      <div className="service-title">Our Services</div>
-      <ul className="service-content">
-        {list.map((item) => {
-          const { id, num, title, desc } = item;
-          return (
-            <li key={id} value={id} className="service-li-element">
-              <div className="element-num">{num}</div>
-              <div className="element-title">{title}</div>
-              <div className="element-desc">{desc}</div>
-            </li>
-          );
-        })}
-      </ul>
+    <section className="service">
+      <div className="service-wrapper">
+        <div className="service-title">Our Services</div>
+        <ul className="service-content">
+          {list.map((item) => {
+            const { id, num, title, desc } = item;
+            return (
+              <li key={id} value={id} className="service-li-element">
+                <div className="element-num">{num}</div>
+                <div className="element-title">{title}</div>
+                <div className="element-desc">{desc}</div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </section>
   );
 };

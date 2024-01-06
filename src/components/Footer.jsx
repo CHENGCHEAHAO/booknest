@@ -1,6 +1,6 @@
 import "../styles/Footer.css";
-import facebook from "../assets/facebook.png";
-import linkedin from "../assets/linkedin.png";
+import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
+import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import location from "../assets/location.png";
 import phone from "../assets/phone.png";
 import email from "../assets/email.png";
@@ -24,15 +24,10 @@ const contacts = [
 ];
 
 const menuList = [
-  { id: 8001, title: "Home", destination: "home" },
-  { id: 8002, title: "Books", destination: "books" },
-  { id: 8003, title: "About", destination: "about" },
-  { id: 8004, title: "News", destination: "news" },
-];
-
-const socialList = [
-  { id: 7001, img: facebook },
-  { id: 7002, img: linkedin },
+  { id: 8001, title: "Home" },
+  { id: 8002, title: "Books" },
+  { id: 8003, title: "About" },
+  { id: 8004, title: "News" },
 ];
 
 const Footer = () => {
@@ -45,8 +40,13 @@ const Footer = () => {
             {contacts.map((item) => {
               const { id, img, text } = item;
               return (
-                <li key={id} className="">
-                  <img src={img} alt="contact" className="contact-symbol" />
+                <li key={id}>
+                  <div
+                    className="contact-symbol"
+                    style={{
+                      backgroundImage: `url("${img}")`,
+                    }}
+                  ></div>
                   <div className="contact-details">{text}</div>
                 </li>
               );
@@ -69,19 +69,17 @@ const Footer = () => {
         <div className="newsletter-section">
           <div className="footer-section-title">NEWSLETTER</div>
           <div className="message-box">
-            <div className="input-section">input email address</div>
+            <div className="input-section">your email address</div>
             <div className="sign-up-section">sign up</div>
           </div>
 
           <ul>
-            {socialList.map((item) => {
-              const { id, img } = item;
-              return (
-                <li key={id} className="">
-                  <img src={img} alt="social" className="" />
-                </li>
-              );
-            })}
+            <li>
+              <Linkedin className="social-icon" />
+            </li>
+            <li>
+              <Facebook className="social-icon" />
+            </li>
           </ul>
         </div>
       </div>

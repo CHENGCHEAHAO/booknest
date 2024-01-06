@@ -1,6 +1,6 @@
 .footer {
-  width: 100dvw;
-  height: 75dvh;
+  width: 100vw;
+  height: 75vh;
   background-color: #7d6e83;
   display: flex;
   flex-direction: column;
@@ -9,12 +9,13 @@
 }
 
 .footer-wrapper {
-  width: 80vw;
+  width: 85vw;
   height: 100%;
+  padding-top: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .footer-section-title {
@@ -24,10 +25,18 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 24px;
 }
 
 .contact-section {
-  width: 460px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contact-section ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,17 +57,42 @@
   margin: 10px;
 }
 
+.contact-symbol {
+  height: 55px;
+  width: 42px;
+  margin-right: 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-details {
+  width: auto;
+}
+
 .menu-section {
+  width: 140px;
+  height: 45vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
+  align-items: start;
+}
+.menu-section ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   align-items: start;
 }
 
 .menu-section ul li {
+  margin-bottom: 24px;
+}
+
+.menu-section ul li a {
   color: #fff;
   font-family: Inter;
-  font-size: 19px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -84,6 +118,8 @@
   background-color: #fff;
   display: flex;
   align-items: center;
+  justify-content: start;
+  padding-left: 10px;
 }
 
 .newsletter-section .sign-up-section {
@@ -98,4 +134,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.newsletter-section ul li .social-icon {
+  width: 60px;
+  height: 60px;
+  margin: 12px;
 }

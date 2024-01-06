@@ -1,4 +1,4 @@
-.navbar {
+.navbar-wrapper {
   background-color: #7d6e83;
   border-bottom: 1px solid #7d6e83;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -6,11 +6,11 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 100dvw;
+  width: 100vw;
   height: 85px;
 }
 
-.navbar a {
+.navbar-wrapper a {
   color: #000;
   font-family: Inter;
   font-size: 48px;
@@ -19,7 +19,7 @@
   line-height: normal;
 }
 
-.navbar .menu {
+.navbar-wrapper .menu {
   width: 48px;
   height: 48px;
   background-image: url("../assets/burger.png");
@@ -29,14 +29,14 @@
   margin-right: 24px;
 }
 
-.navbar .company {
+.navbar-wrapper .company {
   margin-left: 16px;
   margin-right: 16px;
   display: flex;
   align-items: center;
 }
 
-.navbar .company-logo {
+.navbar-wrapper .company-logo {
   width: 48px;
   height: 48px;
   background-image: url("../assets/eBook.png");

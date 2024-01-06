@@ -2,6 +2,7 @@ import "../styles/Goal.css";
 import mission from "../assets/mission.png";
 import vision from "../assets/vision.png";
 import value from "../assets/value.png";
+import video from "../assets/video.mp4";
 
 const list = [
   {
@@ -26,24 +27,27 @@ const list = [
 
 const Goal = () => {
   return (
-    <section className="goal-wrapper">
-      <ul>
-        {list.map((item) => {
-          const { id, img, title, desc } = item;
-          return (
-            <li key={id}>
-              <div
-                className="goal-icon"
-                style={{
-                  backgroundImage: `url("${img}")`,
-                }}
-              ></div>
-              <div className="goal-title">{title}</div>
-              <div className="goal-desc">{desc}</div>
-            </li>
-          );
-        })}
-      </ul>
+    <section className="goal">
+      <div className="goal-wrapper">
+        <video src={video} autoplay="autoplay" muted="muted" loop="loop" />
+        <ul>
+          {list.map((item) => {
+            const { id, img, title, desc } = item;
+            return (
+              <li key={id}>
+                <div
+                  className="goal-icon"
+                  style={{
+                    backgroundImage: `url("${img}")`,
+                  }}
+                ></div>
+                <div className="goal-title">{title}</div>
+                <div className="goal-desc">{desc}</div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </section>
   );
 };

@@ -1,6 +1,6 @@
-.about-wrapper {
-  width: 100dvw;
-  height: 60dvh;
+.about {
+  width: 100vw;
+  height: 60vh;
   background-color: #dfd3c3;
   display: flex;
   flex-direction: row;

@@ -4,3 +4,7 @@
 4. To do the responsive, in tailwind css, we have to write sm: or md: prefix before the utility class. Eg:// sm: text-3xl
 5. Can refer to the tailwind.css documentation.
 6. https://tailwindcss.com/docs/font-size
+
+
+npm i swiper
+npm install --save @iconscout/react-unicons

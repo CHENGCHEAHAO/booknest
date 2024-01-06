@@ -2,8 +2,8 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <section>
-      <div className="navbar">
+    <section className="navbar">
+      <div className="navbar-wrapper">
         <a href="#" className="menu"></a>
         <a href="#" className="company">
           <div className="company-logo"></div>
