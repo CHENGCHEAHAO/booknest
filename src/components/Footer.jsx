@@ -24,10 +24,10 @@ const contacts = [
 ];
 
 const menuList = [
-  { id: 8001, title: "Home" },
-  { id: 8002, title: "Books" },
-  { id: 8003, title: "About" },
-  { id: 8004, title: "News" },
+  { id: 8001, title: "Home", href: "#home" },
+  { id: 8002, title: "Books", href: "#book" },
+  { id: 8003, title: "About", href: "#about" },
+  { id: 8004, title: "News", href: "#" },
 ];
 
 const Footer = () => {
@@ -45,8 +45,7 @@ const Footer = () => {
                     className="contact-symbol"
                     style={{
                       backgroundImage: `url("${img}")`,
-                    }}
-                  ></div>
+                    }}></div>
                   <div className="contact-details">{text}</div>
                 </li>
               );
@@ -57,10 +56,10 @@ const Footer = () => {
           <div className="footer-section-title">MENU</div>
           <ul>
             {menuList.map((item) => {
-              const { id, title } = item;
+              const { id, title, href } = item;
               return (
                 <li key={id} className="menu-list">
-                  <a href="#">{title}</a>
+                  <a href={href}>{title}</a>
                 </li>
               );
             })}

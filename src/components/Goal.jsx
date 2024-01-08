@@ -9,19 +9,19 @@ const list = [
     id: 1001,
     img: mission,
     title: "Mission",
-    desc: "Description of mission I just want to make it longer so it fit",
+    desc: "Revolutionize knowledge by providing convenient e-book rental service",
   },
   {
     id: 1002,
     img: vision,
     title: "Vision",
-    desc: "Description of mission I just want to make it longer so it fit",
+    desc: "To be the foremost provider of accessible and affordable e-book",
   },
   {
     id: 1003,
     img: value,
     title: "Values",
-    desc: "Description of mission I just want to make it longer so it fit",
+    desc: "Accessibility and Innovation is the value we believe in our company",
   },
 ];
 
@@ -29,7 +29,7 @@ const Goal = () => {
   return (
     <section className="goal">
       <div className="goal-wrapper">
-        <video src={video} autoplay="autoplay" muted="muted" loop="loop" />
+        <video src={video} autoplay="autoplay" muted="muted" loop />
         <ul>
           {list.map((item) => {
             const { id, img, title, desc } = item;

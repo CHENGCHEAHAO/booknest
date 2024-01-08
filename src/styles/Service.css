@@ -1,6 +1,6 @@
 .service-wrapper {
   width: 100vw;
-  height: 42vw;
+  height: 30vw;
   background-color: #d0b8a8;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 2vw;
 }
 
 .service-content {
@@ -26,7 +27,7 @@
 }
 
 .service-content .service-li-element {
-  width: 27vw;
+  width: 40vw;
   height: 16vw;
   margin: 1vw;
   display: flex;
@@ -67,7 +68,7 @@
 .element-desc {
   color: #000;
   font-family: Inter;
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -83,10 +84,83 @@
 }
 
 /* default large screen */
-/* medium screen */
-@media (min-width: 768px) and (max-width: 1023px) {
-}
 
 /* small screen */
 @media (max-width: 767px) {
+  .service-wrapper {
+    width: 100vw;
+    height: 240vw;
+    background-color: #d0b8a8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-content {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-content .service-li-element {
+    width: 80vw;
+    height: 100vw;
+    margin: 1vw;
+    padding: 5vw 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .service-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 12vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .element-num {
+    color: #000;
+    font-family: Inter;
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .element-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .element-desc {
+    color: #000;
+    font-family: Inter;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 3.2vw;
+    padding-right: 3.2vw;
+    margin-top: 1.5vw;
+  }
+
+  .service-li-element[value="2"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
 }

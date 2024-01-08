@@ -1,6 +1,6 @@
 .hero-wrapper {
   background-color: #f8ede3;
-  height: 56.25vw;
+  height: 42vw;
   width: 100vw;
   display: flex;
   flex-direction: row-reverse;
@@ -48,7 +48,7 @@
 }
 
 .desc-wrapper {
-  width: 40vw;
+  width: 44vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,10 +72,10 @@
 }
 
 .company-desc .company-slogan {
-  width: 20vw;
+  width: 22vw;
   color: #000;
   font-family: Inter;
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -94,10 +94,79 @@
 }
 
 /* default large screen */
-/* medium screen */
-@media (min-width: 768px) and (max-width: 1023px) {
-}
-
 /* small screen */
 @media (max-width: 767px) {
+  .hero-wrapper {
+    background-color: #f8ede3;
+    height: 150vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
+  }
+
+  .ebook-wrapper .ebook-img {
+    height: 60vw;
+    width: 60vw;
+    background-image: url("../assets/eBook.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: auto;
+    bottom: -6.25vw;
+    z-index: 100;
+  }
+
+  .ebook-wrapper .ebook-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 14vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .desc-wrapper {
+    width: 120vw;
+    padding: 12vw 10vw;
+    padding-bottom: 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .company-desc .company-logo {
+    width: 36vw;
+    height: 20vw;
+    background-image: url("../assets/logo.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .company-desc .company-slogan {
+    width: 60vw;
+    color: #000;
+    font-family: Inter;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1vw;
+  }
+
+  .desc-wrapper .description {
+    width: 80vw;
+    color: #000;
+    font-family: Inter;
+    font-size: 3.6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12vw;
+  }
 }

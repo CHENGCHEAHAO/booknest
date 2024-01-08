@@ -100,6 +100,7 @@
 }
 
 .newsletter-section {
+  height: 14vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -145,10 +146,144 @@
 }
 
 /* default large screen */
-/* medium screen */
-@media (min-width: 768px) and (max-width: 1023px) {
-}
-
 /* small screen */
 @media (max-width: 767px) {
+  .footer {
+    width: 100vw;
+    height: 180vw;
+    background-color: #7d6e83;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-wrapper {
+    width: 85vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-section-title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .contact-section {
+    width: 80vw;
+    height: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .contact-section ul {
+    width: 100%;
+  }
+
+  .contact-section ul li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    font-family: Inter;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 2vw;
+  }
+
+  .contact-symbol {
+    height: 15vw;
+    width: 10vw;
+    margin-right: 3.5vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .contact-details {
+    width: 55vw;
+  }
+
+  .menu-section {
+    width: 80vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .menu-section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-wrap: wrap;
+  }
+
+  .menu-section ul li a {
+    color: #fff;
+    font-family: Inter;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+
+  .newsletter-section {
+    height: 50vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .newsletter-section .message-box {
+    width: 100%;
+    height: 8vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsletter-section .input-section {
+    width: 40vw;
+    font-size: 3vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 0.5vw;
+  }
+
+  .newsletter-section .sign-up-section {
+    width: 16vw;
+    font-size: 3vw;
+    background-color: #d0b8a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newsletter-section ul li .social-icon {
+    width: 9vw;
+    height: 9vw;
+    margin-right: 0.625vw;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+  }
 }
