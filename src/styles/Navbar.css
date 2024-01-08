@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 100vw;
-  height: 85px;
+  height: 10vh;
 }
 
 .navbar-wrapper a {
@@ -37,9 +37,9 @@
 }
 
 .navbar-wrapper .company-logo {
-  width: 48px;
-  height: 48px;
-  background-image: url("../assets/eBook.png");
+  width: 6vw;
+  height: 4vw;
+  background-image: url("../assets/logo.png");
   background-size: cover;
   background-position: center;
   margin-right: 24px;

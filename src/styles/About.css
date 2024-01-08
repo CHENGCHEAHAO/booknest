@@ -30,7 +30,7 @@
 }
 
 .about-content .about-desc {
-  width: 520px;
+  width: 26vw;
   color: #000;
   font-family: Inter;
   font-size: 19px;
@@ -40,8 +40,8 @@
 }
 
 .about-content .about-team-btn {
-  width: 200px;
-  height: 60px;
+  width: 10vw;
+  height: 3vw;
   background-color: #7d6e83;
   color: #fff;
   font-family: Inter;
@@ -60,8 +60,8 @@
 }
 
 .about-img {
-  width: 640px;
-  height: 400px;
+  width: 33vw;
+  height: 21vw;
   background-image: url("../assets/about.png");
   background-size: cover;
   background-position: center;

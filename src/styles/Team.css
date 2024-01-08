@@ -11,7 +11,7 @@
 .team-wrapper .title {
   color: #000;
   font-family: Inter;
-  font-size: 96px;
+  font-size: 84px;
   font-weight: 700;
   text-align: center;
 }
@@ -19,11 +19,11 @@
 .card-wrapper {
   width: 100vw;
   height: auto;
-  padding: 2rem 0;
+  padding: 32px 0;
 }
 
 .swiper-slide {
-  width: 55vw;
+  width: 45vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
 
 .card {
   width: 55vw;
-  height: 60vh;
+  height: 25vw;
   background-color: white;
   border-radius: 20px;
   box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.25);
@@ -50,7 +50,7 @@
 
 .card .card-img {
   width: 24vw;
-  height: 55vh;
+  height: 22vw;
   border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@
 .card .card-content .card-name {
   color: #000;
   font-family: Inter;
-  font-size: 64px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -99,8 +99,8 @@
   vertical-align: middle;
 }
 .card .card-content .card-social img {
-  width: 70px;
-  height: 70px;
+  width: 4vw;
+  height: 4vw;
   margin-right: 32px;
 }
 

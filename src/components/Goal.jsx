@@ -39,8 +39,7 @@ const Goal = () => {
                   className="goal-icon"
                   style={{
                     backgroundImage: `url("${img}")`,
-                  }}
-                ></div>
+                  }}></div>
                 <div className="goal-title">{title}</div>
                 <div className="goal-desc">{desc}</div>
               </li>
