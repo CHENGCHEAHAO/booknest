@@ -1,10 +1,13 @@
-1. Used create-react-app and tailwind.css
-2. Mobile view is based on iphone 14 pro max screen width, havent fine tune.
-3. Haven't touch on desktop view, so it will look kinda messy.
-4. To do the responsive, in tailwind css, we have to write sm: or md: prefix before the utility class. Eg:// sm: text-3xl
-5. Can refer to the tailwind.css documentation.
-6. https://tailwindcss.com/docs/font-size
+# BookNest
+*BookNest* is a web application for our e-book rental company. It features 5 sections containing the information of our company, including the company background, vision, mission and goals, our team, and others.
 
+## Description
+This is a interactive and responsive web application which can be viewed through multiple devices of different sizes, including, handheld devices, laptops or desktop and many more. React.js and Node.js was used to complete this web application.
 
-npm i swiper
-npm install --save @iconscout/react-unicons
+## Execution
+1. npm i swiper
+2. npm install --save @iconscout/react-unicons
+
+## Links for visiting BookNest
+[Youtube link](https://youtu.be/Fm9WzWgFYX8)
+[Web application Link](https://booknestsite.netlify.app/)
