@@ -1,12 +1,12 @@
 .hero-wrapper {
   background-color: #f8ede3;
-  height: 100vh;
+  height: 56.25vw;
   width: 100vw;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 1vw;
 }
 
 .ebook-wrapper {
@@ -22,8 +22,8 @@
   background-size: cover;
   background-position: center;
   position: absolute;
-  right: -50px;
-  bottom: -120px;
+  right: -2.6vw;
+  bottom: -6.25vw;
   z-index: 100;
 }
 
@@ -39,12 +39,12 @@
 .ebook-wrapper .ebook-text {
   color: #000;
   font-family: Inter;
-  font-size: 84px;
+  font-size: 4.375vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
 
 .desc-wrapper {
@@ -75,22 +75,22 @@
   width: 20vw;
   color: #000;
   font-family: Inter;
-  font-size: 19px;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 20px;
+  margin-left: 1vw;
 }
 
 .desc-wrapper .description {
   width: 35vw;
   color: #000;
   font-family: Inter;
-  font-size: 23px;
+  font-size: 1.2vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 50px;
+  margin-top: 2.6vw;
 }
 
 /* default large screen */

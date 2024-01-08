@@ -7,31 +7,31 @@
   justify-content: flex-start;
   align-items: center;
   width: 100vw;
-  height: 10vh;
+  height: 5.6vw;
 }
 
 .navbar-wrapper a {
   color: #000;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .navbar-wrapper .menu {
-  width: 48px;
-  height: 48px;
+  width: 2.5vw;
+  height: 2.5vw;
   background-image: url("../assets/burger.png");
   background-size: cover;
   background-position: center;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 1.25vw;
+  margin-right: 1.25vw;
 }
 
 .navbar-wrapper .company {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 1.25vw;
+  margin-right: 1.25vw;
   display: flex;
   align-items: center;
 }
@@ -42,7 +42,7 @@
   background-image: url("../assets/logo.png");
   background-size: cover;
   background-position: center;
-  margin-right: 24px;
+  margin-right: 1.25vw;
 }
 
 /* default large screen */
