@@ -9,5 +9,5 @@ This is a interactive and responsive web application which can be viewed through
 2. npm install --save @iconscout/react-unicons
 
 ## Links for visiting BookNest
-[Youtube link](https://youtu.be/Fm9WzWgFYX8)
-[Web application Link](https://booknestsite.netlify.app/)
+Youtube link: <https://youtu.be/Fm9WzWgFYX8></br>
+Web application Link: <https://booknestsite.netlify.app/>
