@@ -16,7 +16,7 @@ const About = () => {
         </a>
       </div>
       <div className="about-vid">
-        <video src={abtVid} autoplay="true" controls="controls" loop />
+        <video src={abtVid} autoplay="true" controls="controls" loop muted />
       </div>
     </section>
   );
