@@ -108,8 +108,13 @@
   --swiper-theme-color: #000;
 }
 
+.swiper-pagination-bullet {
+  --swiper-pagination-bullet-size: 0.5vw;
+}
+
 .slider-arrow {
   --swiper-theme-color: #000;
+  --swiper-navigation-size: 2vw;
 }
 
 /* default large screen */
