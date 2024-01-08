@@ -101,10 +101,8 @@
     align-items: center;
   }
   .goal-wrapper video {
-    display: none;
     position: absolute;
-    width: 140.63vw;
-    height: 100%;
+    width: 1000vw;
     object-fit: cover;
     z-index: 1;
   }
