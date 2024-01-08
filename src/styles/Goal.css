@@ -65,3 +65,12 @@
   line-height: normal;
   text-align: center;
 }
+
+/* default large screen */
+/* medium screen */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* small screen */
+@media (max-width: 767px) {
+}
